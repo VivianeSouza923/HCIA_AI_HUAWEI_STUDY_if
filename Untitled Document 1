@@ -29,6 +29,83 @@
 -------------------------------------------
 ******Speech Processing - VER
 ----------------------------------------
-#continuar em page 34
+#Huawei's Full-Stack, All-Scenario AI Portfolio:
+
+	1. ModelArts;
+	2. MindSpore;
+	3. CANN;
+	4. Ascend;
+	
+	5. Atlas
+	
+--------------------------------------------------
+#ModelArts:
+	*AI data framework* - processamento de dados acelerado por 100 pastas
+	filtragem eficiente e marcação semi automatizada;
+	
+	*Algorithm development* - faz desenvolvimento sem preocupação. Ambiente de desenvolvimento compatível com os pricipais frameworks (inclusive, MoXing library, da Huawei), simplificando o modelo de desenvolvimento construídos em modelos de algorítimos, promovendo eficiência de desenvolvimento.
+	
+	
+	*Training* - Treino distribuído em pequenos períodos de treino DE SEMANAS A MINUTOS. Autolearning Wizard-based.
+	
+	
+	*Deployment* - SUporta vários cenários de deployment no dispositivo, edge e cloud. 
+	
+	*Market* - Constrói AI ecosystems interno e externamente para empreendimentos. 
+----------------------------------------------------------------
+#MindSpore (Huawei AI Computing Framework):
+
+	Fornece capacidades paralelas automáticas;
+	
+	Com ele, Eng. de algoritmos Sr ou DS que focam em modelagem de dados e soluções de problemas podem rodar algoritmos de dezenas ou até mesmo centenas de nós computacionais de IA com apenas poucas linhas de descrição;
+	
+	Ele suporta ambas as escalas de deploy, alta e baixa, adaptando a independentes deploys em todos os cenários. Além do Ascend AI processors (Huawei), ele também suporta outros processadores como GPUs e CPUs. 
+	
+----------------------------------------------------------------
+#CANN (Compute Architecture for Neural Networks) - Habilitação do processador:
+
+	Uma biblioteca de operadores de chip e um conjunto de ferramentas de operadores de desenvolvimento altamente automatizado. COnvergência de operador, melhor match, melhora a performace do Ascend Chip (HUawei)
+
+	1. FusionEngine;
+	2. TBE operator development tool;
+	3. CCE Operator LIbrary;
+	4. CCE Compiler.
+	
+----------------------------------------------------------------
+#Ascend 310 AI Processor e Da Vinci Core:
+
+	1. Ascend 310:
+	Half-Precision (FP16): 8TFLOPS
+	INteger precision (INT8): 16TOPS
+	Máxima P: 8W
+	
+	2. Ascend 910:
+	Half-precision (FP16): 256TFLOPS
+	INteger precision (INT8): 512TOPS
+	Máxima P: 310W
+	
+	
+---------------------------------------------------------------
+#Atlas - AI Computing Platform POrtfolio - Chips & Hardware:
+	Atlas 200;
+	Atlas developer kit;
+	Atlas 300 inference accelerator card;
+	Atlas 300 training card;
+	Atlas 500;
+	Atlas 800 AI inference server;
+	Atlas 800 AI training server;
+	Atlas 900
+---------------------------------------------------------------
+#Algoritmo enviesado/com preconceito:
+
+software, como Google image já classifou uma imagem de pessoa negra como Gorila. Para não haver viés, software com preconceito, ELE PRECISA SER BEM TREINADO, pois é uma máquina.
+
+----------------------------------------------------------------
+#Problemas de privacidade:
+
+*continuar na página 49/50*
+ 
+
+
 
 
