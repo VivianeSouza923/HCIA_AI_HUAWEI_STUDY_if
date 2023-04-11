@@ -1,0 +1,8 @@
+#Tipos de ML:
+	1. Aprendizagem SUpervisionada: Dados já chegam conhecidos para treinar o modelo, amostras com categorias conhecidas. APós treinar, o modelo é usado para mapear todas as entradas e verificar a saída a fim de  classificar os dados desconhecidos (já que ele já tem o conhecimento);
+	
+	2. Aprendizagem Não-supervisionada: Dados não vem rotulados, não classificados. A modelagem de dados ocorre na entrada logo. O Clustering é muito comum nesse tipo de ML, pois ele é usado para agrupar esses dados de acordo com a suas semelhanas internas. Calcula-se a similaridade entre as novas amostras e as existentes e ai a classificação é feita pela similaridade;
+	
+	3. Aprendizagem semi-supervisionada:  Ele mixa os dois primeiros MLs, mas não na mesma proporção. Ele usa automaticamente uma grande quantidade de dados não rotulados para auxiliar no aprendizado direto de uma pequena quantidade de dados rotulados;
+	
+	4. Aprendizado por Reforço:  continuar na página 13
