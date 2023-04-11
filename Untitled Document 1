@@ -101,9 +101,30 @@
 software, como Google image já classifou uma imagem de pessoa negra como Gorila. Para não haver viés, software com preconceito, ELE PRECISA SER BEM TREINADO, pois é uma máquina.
 
 ----------------------------------------------------------------
-#Problemas de privacidade:
+#áreas de aplicação de IA: 
+	1. Smart household;
+	2. Smart healthcare;
+	3. Smart city;
+	4. Smart Education
+	
+----------------------------------------------
+#Machine Learning:
+ 
+ 	Primeiro pegamos o modelo e inserimos os dados (histórico), com isso já podemos TREINAR o modelo (treinamento). Com o modelo já treinado, se entrar NOVOS DADOS, ele poderá prever os futuros atributos;
+ 	
+ 	Amostras sçao usadas para treinar o modelo;
+ 	
+ 	Cenário de aplicação ML: Regra COMPLEXA, escala do problema GRANDE;
+ 	
+ 	Classification - precisa especificar a qual das k categorias alguma entrada pertence. Os algoritmos de aprendizdo geralmente produzem uma função para realizar essa tarefa;
+ 	
+ 	Regression - O algoritmo prevê a saída para a entrada dada. Os algoritmos de aprendizado normalmente produzem uma função;
+ 	
+ 	Clustering - São grande volume de dados, não rotulados, dai são dividos em várias categorias de acordo com a semelhança interna deles. O que o Clustering é agrupar essas dados em grupos de acordo com a semelhança interna deles.
+ 	
+ 	Regression and Classification - são modelos preditivos, os principais, representando de 80 a 90%. Classification: Output - valores de categoria discretos; Regression: Output - numeros contínuos.
 
-*continuar na página 49/50*
+
  
 
 
