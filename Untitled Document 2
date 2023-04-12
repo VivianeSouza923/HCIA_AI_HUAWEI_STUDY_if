@@ -5,4 +5,84 @@
 	
 	3. Aprendizagem semi-supervisionada:  Ele mixa os dois primeiros MLs, mas não na mesma proporção. Ele usa automaticamente uma grande quantidade de dados não rotulados para auxiliar no aprendizado direto de uma pequena quantidade de dados rotulados;
 	
-	4. Aprendizado por Reforço:  continuar na página 13
+	4. Aprendizado por Reforço:  recompensa para a máquina, caso realize a ação corretamente. Há a avaliação, claro do aprendizado. O sinal de reforço fornecido pelo ambiente é usado para avaliação , em vez de dizer ao sistema de aprendizado como executar as ações corretas. A Aprendizagem Por Reforço é o treinamento de modelos de aprendizado de máquina para tomar uma sequência de decisões. O agente aprende a atingir uma meta em um ambiente incerto e potencialmente complexo. O aprendizado por reforço é atualmente a maneira mais eficaz de sugerir criatividade à máquina. É direcionado à máquinas ou robôs.
+	
+----------------------------------------------------------------
+#Questões de Regressão:
+	Esse tipo de algoritmo é supervisionado. Estima o valor de algo baseado em uma série de outros dados históricos. EM outras palavras, ele prevê o futuro, olhando para o passado.
+	
+-----------------------------------------------------------------
+#Questões de Classificação: 
+	Esse tipo de algoritmo é supervisionado. O alimentamos com determinado dado conhecido, ele é treinado com esse dado para conhecer suas CARACTERÍSTICAS. APós treinado, ele pode receber esse dado conhecido que ele nunca viu antes para classificá-lo (e ele saberá, uma vez que fez o mapeamento das principais características desse determinado dado)
+	
+----------------------------------------------------------------
+#Processo de ML:
+
+	1. COleção de dados;
+	2. Limpeza dos dados;
+	3. Extração e seleção dos dados;
+	4. Treinamento do modelo com esses dados, obviamente;
+	5. Avaliação do modelo (dependendo do resultado, retorna lá pra 2);
+	6. Implantação e integração do modelo, caso esteja tudo ok com ele.
+-----------------------------------------------------------------
+#Processamento de dados - ML: 
+	Pré-processamento: Limpeza de dados; Redução da dimensão dos dados e Normalização dos dados.
+	
+	
+	Limpeza de dados: 
+		Filtragem de dados;
+		Processamento de dados perdidos;
+		Processamento de possíveis exceções, erros ou valores anormais;
+		Combinação de dados de várias fontes de dados;
+		COnsolidação de dados
+		
+		
+	Dados sujos:
+		Dados incompletos, ausentes ou que carecem de atributos;
+		ruído - registro incorreto ou exceções;
+		Inconsistência - registro inconsistentes
+		
+-----------------------------------------------------------------
+#Conversão de dados - ML:
+	Forma de representação adequada ao modelo de ML;
+	Os dados de valor sãoo convertidos em dados de categoria para reduzir o valor das variáveis
+-----------------------------------------------------------------#Seleção de recursos:
+
+	Retirar dados irrelevantes, redundantes para simplificar os modelos e fazê-los f´acil para interpretação de usuários. Também reduzir o tempo de treino, evitar a explosão dimensional, melhorar a generalização do modelo e evitar sobreajuste.
+	
+	Métodos de Seleção de Recursos - Filtro(Filter) - Métodos comuns: 
+		1. COeficiente de Correlação de Pearson;
+		2. Coeficiente Qui-Quadrado;
+		3. INformação mútua
+		
+		ATravessa tudo de características --> seleciona 		os ótimos subconjuntos de recursos --> treina os modelos --> avalia o desempenho
+	
+		A limitação dele: Tende a SElecionar variáveis redundantes, pois a relação entre características não é considerada.
+	
+	
+	Métodos de Seleção de Recursos - Wrapper:
+		Ele usa um modelo de previsão para pontuar um subconjunto de recursos;
+		
+		ATravessa tudo de características --> (Gera um característica subconjunto --> Treina o modelo -->) AValia o modelo
+		Métodos comuns: Eliminação de recursos recursivos (RFE);
+		
+		LImitação dele: Ele treina um novo modelo para cada subconjunto gerado, gerando assim um grande volume de cálculo. 
+		
+		
+	Métodos de Seleção de Recursos - Incorporados(Embedded):
+		O tipo mais comum é o MÉTODO DE REGULARIZAÇÃO;
+		
+		Métodos comuns: 
+			1. regressão de laço;
+			2. regressão Ridge
+	ATravessa tudo de características --> (Gera subconjunto de recursos --> Treina o modelo+AValia o modelo)
+	
+	
+	Considera a seleção de recursos como parte da construção do modelo
+	
+-----------------------------------------------------------------
+#Procedimento geral de construção de um modelo:
+
+	1. Divisão de dados: Dividir os dados em conjunto de treinamento, conjunto de teste e conjunto de validação;
+	2. TReinamento do modelo: 
+	
