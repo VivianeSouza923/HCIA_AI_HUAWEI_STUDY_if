@@ -1,0 +1,65 @@
+#ML - O que faz um modelo ser bom?
+	1. Capacidade de generalização;
+	2. INterpretabildade;
+	3. Velocidade de precisão;
+	4. Praticabilidade
+	
+-----------------------------------------------------------------
+#Validade do modelo:
+	Erro: diferença entre o resultado amostral previsto pelo modelo obtido após o aprendizado e o resultado amostral real;
+	
+	Underfitting: ocorre quando o modelo ou algoritmo não se ajusta bem aos dados;
+	
+	Overfitting: ocorre quando o erro do de treinamento do modelo após o aprendizado é pequeno, mas o erro de generalização é grande, ou seja, baixa capacidade de generalização. Os ruídos são aprendidos;
+	
+	capacidade do modelo: capacidade do modelo de ajustar funções, também chamada de complexidade do modelo;
+	
+	MOdelos com capacidade insuficiente não podem resolver tarefas complexas e pode ocorrer subajuste;
+	
+	UM modelo de alta capacidade pode resolver tarefas complexas, mas pode ocorrer *overfitting* se a capacidade for maior do que a exigida por uma tarefa;
+	
+-----------------------------------------------------------------
+#Causa de sobreajuste/Overfitting - Erro:
+	1. Erro causado pelo viés;
+	2. Erro causado pela variância
+	
+	Variância/Variação? 
+		desocamento do resultado da previsão do valor médio;
+		erro causado pela sensibilidade do modelo a pequenas flutuações no conjunto de treinamento
+		
+	Viés?
+		Diferença entre o valor de previsão esperado (ou médio) e o valor correto que estamos tentando prever
+		
+		
+	baixo viés e baixa variância --> BOM modelo;
+	alto viés e alta variância --> MAU modelo;
+	
+	Viés baixo é que deixa o modelo mais PRÓXIMO do bom.
+-----------------------------------------------------------------
+#Complexidade e erro do modelo:
+	Quanto mais complexo o modelo, quanto mais alta a complexidade, menor o erro de treinamento;
+	
+	Quanto mais complexo o modelo, menor o erro de teste, porém em certo ponto, o erro de teste irá aumentar na direção inversa (ou seja, quand chegar no menor valor de erro, ele irá subir);
+-------------------------------------------------------------------
+#Avaliação de desempenho de ML - REGRESSÃO:
+	Quanto mais próximo o Erro Absoluto Médio estiver de 0, melhor o modelo poderá ajustar os dados de treinamento.
+-------------------------------------------------------------------
+#AValiação de desempenho de ML - Classificação: 
+	falso positivo, falso negativo, verdadeiro positivo, verdadeiro negativo e ai a gente vê isso com a matriz de confusão.
+	
+-----------------------------------------------------------------
+#Descida de Gradiente/Gradient DEscendent - Veja sobre depois.
+-------------------------------------------------------------------------
+#Regressão Linear:
+É um método de análise estatística 
+----------------------------------------------------------------
+#K-means não é aprendizado supervisionado;
+----------------------------------------------------------------
+#Deep Learning:
+	1. Problema de XOR - solução de XOR(após rede neural);
+	
+	2. A direção do vetor gradiente é a direção de crescimento mais rápido da função. Como resultado, a direção do
+vetor de gradiente negativo -  é a direção de descida mais rápida da função;
+
+***continuar na página 28
+
