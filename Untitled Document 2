@@ -84,5 +84,10 @@
 #Procedimento geral de construção de um modelo:
 
 	1. Divisão de dados: Dividir os dados em conjunto de treinamento, conjunto de teste e conjunto de validação;
-	2. TReinamento do modelo: 
+	2. TReinamento do modelo: Usar os dados que foram limpos e usar engenharia de recursos para treinar um modelo;
+	3. Verificação do modelo: Usar conjuntos de validação para validar o modelo;
+	4. Teste de modelo: Usar dados de teste para avaliar a generalização do modelo em uma ambiente real;
+	5.Implantação do modelo: Implantar o modelo em um real cenário de produção;
+	6. Ajuste fino do modelo: Sintonização contínua do modelo baseado nos dados reais de um cenário de serviço.
+-----------------------------------------------------------------
 	
