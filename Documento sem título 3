@@ -61,5 +61,10 @@
 	2. A direção do vetor gradiente é a direção de crescimento mais rápido da função. Como resultado, a direção do
 vetor de gradiente negativo -  é a direção de descida mais rápida da função;
 
-***continuar na página 28
+	3. PERCEPTRON
+----------------------------------------------------------------------------------------------------------------------
+#Tipos de redes neurais:
+	1. rede neural convolucional(CNN);
+	2. RNN;
+	3. GAN
 
