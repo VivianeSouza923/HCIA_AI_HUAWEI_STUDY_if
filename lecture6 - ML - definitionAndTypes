@@ -1,0 +1,10 @@
+		***** MACHINE LEARNING ********
+
+forma como a máquina vai aprender:
+
+	pré-conhecimento, exemplos de problemas, histórico: DADOS
+	
+	O modelo adquire um pré-conhecimento através desses DADOS e com base nesse modelo que foi treinado/ensinado, a gente passa novos dados, dados DESCONHECIDOS. E ai a gente observa o comportamento dele, diante destes.
+	
+	
+	#CONTINUA
