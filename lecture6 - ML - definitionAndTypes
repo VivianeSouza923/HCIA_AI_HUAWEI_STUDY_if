@@ -5,6 +5,26 @@ forma como a máquina vai aprender:
 	pré-conhecimento, exemplos de problemas, histórico: DADOS
 	
 	O modelo adquire um pré-conhecimento através desses DADOS e com base nesse modelo que foi treinado/ensinado, a gente passa novos dados, dados DESCONHECIDOS. E ai a gente observa o comportamento dele, diante destes.
+	dados iniciais são conhecidos e o modelo adquire conhecimento através deles.
+	fase de predição: quando chega dados novos. O modelo vai inferir qual a label desses dados que ele não conhece
+	
+	as regras são automaticamente aprendidas pelo modelo
+	
+	amostra? é um vetor de medidas.
 	
 	
-	#CONTINUA
+Regressão:
+	
+	nuvem de pontos. o modelo de aprendizado vai encontrar uma reta/hiperplano (R3) que melhor aproxima esses pontos	
+	
+	
+Classificação:
+
+	individuos de uma classe e outros individuos de outra classe. O modelo vai estimar uma reta que melhor se comporte, que melhor separa essas duas classes.
+	
+	
+Clustering:
+
+	não tenho rótulos. POntos jogados no espaços que não conheço os rótulos. Vai identificar grupos dentro do espaço 
+	
+
