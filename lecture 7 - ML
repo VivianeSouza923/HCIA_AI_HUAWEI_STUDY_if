@@ -5,6 +5,14 @@
 	4. Aprendizado Por Reforço (experiência, ambiente impõe sobre esse modelo penalidades quando há erros e recompensa quando há acertos)
 	
 
-* Aprendizado Supervisionaado:
+
+
+* processo de ML:
+	1. Coleta de dados;
+	2. LImpeza de dados;
+	3. Seleção e EXtração de características;
+	4. Treinar o modelo;
+	5. Avaliar o modelo (se não tiver uma avaliação boa, eu volto para o início, ou seja, o item 1);
+	6. se o item 5 for bem sucedido, deploy e integração
 
 	
